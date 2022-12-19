@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+  }
+
+  header {
+      text-align: center;
+      background-color: #2A9D8F;
+      color: #264653;
+      font-size: 100px;
+      padding: 40px;
+  }
+
+  button {
+      background: radial-gradient(circle, #e9c46a 0%, #E76F51 100%);
+      border-radius: 10px;
+      color: #264653;
+      font-size: 50px;
+      transition-duration: 0.15s;
+    }
