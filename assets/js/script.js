@@ -39,6 +39,7 @@ function renderBlanks() {
     chosenWord = words[Math.floor(Math.random() * words.length)];
     lettersInChosenWord = chosenWord.split("");
     numBlanks = lettersInChosenWord.length;
+    blanks = []
 
     for (var i = 0; i < numBlanks; i++) {
         blanks.push("_");
@@ -143,3 +144,14 @@ function startTimer() {
 startButton.addEventListener("click", startGame);
 
 init();
+
+let resetButton = document.querySelector(".reset-button");
+
+function resetScore() {
+    winCounter = 0;
+    loseCounter = 0;
+    setWins();
+    setLosses();
+}
+
+resetButton.addEventListener("click", resetScore);
