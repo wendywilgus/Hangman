@@ -23,7 +23,7 @@ function init() {
 
 function startGame() {
     isWin = false;
-    timerCount = 30;
+    timerCount = 60;
     startButton.disabled = true;
     renderBlanks();
     startTimer();
