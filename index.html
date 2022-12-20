@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Hangman</title>
+        <title>Xmas Word Game</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device" />
         <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+        
+        <link rel="shortcut icon" href="/assets/image/snowglobe.ico"  />
+        <link rel="icon" sizes="192x192" href="/assets/image/snow_globe_christmas_icon_231158.png" />
+        <link rel="apple-touch-icon type="image/png" href="/assets/image/snow_globe_christmas_icon_231158.png" />
     </head>
 
     <body>
         <header>
-            <div>Christmas Word Game</div>
+            <div> Christmas Word Game</div>
             <button class="start-button">Start</button>
         </header>
 
@@ -27,15 +31,17 @@
                     <div>
                         <h2>Wins: <span class="win">0 </span></h2>
                         <h2>Losses: <span class="losses">0 </span></h2>
-                </div>
-                        <button class="reset-button">Reset Score</button>
-            </div>
-                <div class="card timer">
-                    <div class="timer-text">
-                        <div class="large-font timer-count">60</div>
-                        <h3>seconds left</h3>
                     </div>
                 </div>
+                <div>
+                    <button class="reset-button">Reset Score</button>
+            
+                    <div class="card timer">
+                        <div class="timer-text">
+                            <h3 class="timer-count">60</h3>
+                            <h3>seconds left</h3>
+                    </div>
+                </div>                    
             </section>
         </main>
         <script src="assets/js/script.js"></script>

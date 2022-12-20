@@ -1,5 +1,5 @@
 //variables for words and blanks
-var words = ["christmas", "reindeer", "elves", "ornament", "frosty", "carols", "december", "peace", "gingerbread", "stocking", "grinch"];
+var words = ["christmas", "reindeer", "elves", "ornament", "frosty", "carols", "december", "peace", "gingerbread", "stocking", "grinch", "candycane", "presents",  "snow", "holidays", "bows", "candy", "love"];
 var numberOfLetters = [];
 var blanks = [];
 var wordBlank = document.querySelector(".word-blanks");

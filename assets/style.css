@@ -4,16 +4,16 @@
 
   header {
       text-align: center;
-      background-color: rgb(110, 140, 181) 63%;
-      color: #264653;
+      background-color: #7B9970;
+      color: #BFDD82;
       font-size: 100px;
       padding: 20px;
   }
 
   button {
-      background: radial-gradient(circle, #ffffff 0%, #e8e482 100%);
+      background: radial-gradient(circle, #ffffff 0%, #cf756f 100%);
       border-radius: 10px;
-      color: #264653;
+      color: #50596C;
       cursor: pointer;
       font-size: 30px;
       padding: 15px 50px;
@@ -29,7 +29,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: linear-gradient(0deg, #e9c46a 0%, rgb(110, 140, 181) 63%);
+    background: linear-gradient(0deg, #BFDD82 0%, #7B9970 63%);
     min-height: 100vh;
   }
 
@@ -45,7 +45,7 @@
     margin-top: 40px;
     background-color: white;
     border-style: solid;
-    border-color: #e9c46a;
+    border-color: #E8d382;
     border-radius: 10px;
   }
   .reset-button {
@@ -53,6 +53,7 @@
     height: 30px;
     line-height: 10px;
     margin-top: 20px;
+    margin-bottom: 10px;
     padding-bottom: 20px;
     padding-top: 15px;
   }
@@ -75,19 +76,26 @@
   }
 
   .card {
-    background: radial-gradient(circle, #ffffff 0%, rgb(110, 140, 181));
-    border: 2px solid #264653;
+    background: radial-gradient(circle, #ffffff 0%, #39a693);
+    border: 2px solid #50596C;
     border-radius: 10px;
     box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
     rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
     margin: auto;
-    padding: 20px;
+    padding: 30px;
   }
 
   .word-blanks {
     line-height: 300px;
   }
 
+  .timer {
+    height: 150px;
+    padding: 10px;
+    background: #E8d382;
+    color: #50596C;
+    text-align: center;
+  }
   .timer-text {
     padding: 20px;
   }
@@ -116,6 +124,10 @@
     }
 
     .timer {
-      height: 200px;
+      height: 150px;
+    }
+
+    .timer-text {
+      text-align: center;
     }
   }
